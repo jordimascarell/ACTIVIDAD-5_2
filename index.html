@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Companys</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+        }
+        .main_container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .column {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+        }
+        .card_aoo {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            margin: 40px 0;
+            width: 100%;
+            height: 64px;
+            font-family: Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            letter-spacing: -11%;
+        }
+        .card_aoo.reversed {
+            align-items: flex-end; 
+        }
+        .card_aoo h1 {
+            font-size: 64px;
+        }
+        h2 {
+            position: absolute;
+            font-size: 32px;
+            background-color: red;
+            padding-left: 54px;
+            color: white;
+            padding-right: 3px;
+        }
+        .h2-ivan,
+        .h2-julia,
+        .h2-vinni,
+        .h2-raul,
+        .h2-nacho,
+        .h2-jordi {
+            left: 250px;
+        }
+        .h2-monica,
+        .h2-sofia,
+        .h2-nathalia,
+        .h2-alicia,
+        .h2-alba,
+        .h2-cecilia,
+        .h2-aroa {
+            left: 325px;
+        }
+
+        h3 {
+            position: relative;
+            flex-direction: column;
+            font-size: 32px;
+            margin-top: -16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main_container">
+
+        <div class="column">
+            <div class="card_aoo">
+                <h1>Screenprint</h1>
+                <h2 class="h2-ivan">1972th</h2>
+                <h3>Ivan Bernabeu</h3>
+            </div>
+            <div class="card_aoo">
+                <h1>Amber setting</h1>
+                <h2 class="h2-julia">1959th</h2>
+                <h3>Julia Andreu</h3>
+            </div>
+            <div class="card_aoo">
+                <h1>Midssummer</h1>
+                <h2 class="h2-vinni">1964th</h2>
+                <h3>Vinni Chaluisa</h3>
+            </div>
+            <div class="card_aoo">
+                <h1>Oil On Masonite</h1>
+                <h2 class="h2-raul">1939th</h2>
+                <h3>Raül Piera</h3>
+            </div>
+            <div class="card_aoo">
+                <h1>Ascending</h1>
+                <h2 class="h2-nacho">1953th</h2>
+                <h3>Nacho González</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card_aoo reversed">
+                <h1>Soft</h1>
+                <h2 class="h2-monica">1969th</h2>
+                <h3>Mónica Angel</h3>
+            </div>
+            
+            <div class="card_aoo">
+                <h1>Terrestrial II</h1>
+                <h2 class="h2-jordi">1956th</h2>
+                <h3>Jordi Mascarell</h3>
+            </div>
+            
+            <div class="card_aoo reversed">
+                <h1>Rooted</h1>
+                <h2 class="h2-sofia">1961th</h2>
+                <h3>Sofía Domingo</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card_aoo reversed">
+                <h1>Terra Caliente</h1>
+                <h2 class="h2-nathalia">1962th</h2>
+                <h3>Nathalia Pulido</h3>
+            </div>
+            <div class="card_aoo reversed">
+                <h1>Cool Rising</h1>
+                <h2 class="h2-alicia">1963th</h2>
+                <h3>Alicia Gandia</h3>
+            </div>
+            <div class="card_aoo reversed">
+                <h1>Blue Cair</h1>
+                <h2 class="h2-alba">1956th</h2>
+                <h3>Alba Castelló</h3>
+            </div>
+            <div class="card_aoo reversed">
+                <h1>Deep Tune</h1>
+                <h2 class="h2-cecilia">1963th</h2>
+                <h3>Cecilia Castaño</h3>
+            </div>
+            <div class="card_aoo reversed">
+                <h1>In Space</h1>
+                <h2 class="h2-aroa">1956th</h2>
+                <h3>Aroa Benavent</h3>
+            </div>
+        </div>
+
+    </div> </div> </body>
+</html>
